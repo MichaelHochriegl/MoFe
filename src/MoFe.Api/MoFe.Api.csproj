@@ -27,4 +27,10 @@
       <ProjectReference Include="..\MoFe.Persistence\MoFe.Persistence.csproj" />
     </ItemGroup>
 
+
+    <ItemGroup>
+      <Folder Include="Features\Movies\Add\" />
+      <Folder Include="Features\Movies\Get\" />
+    </ItemGroup>
+
 </Project>

@@ -1,8 +1,8 @@
 using System.Net;
 using FastEndpoints;
 using FluentAssertions;
-using MoFe.Api.Features.Movies.Add;
-using MoFe.Contracts.Features.Movies.Add;
+using MoFe.Api.Features.Movies;
+using MoFe.Contracts.Features.Movies;
 
 namespace MoFe.Api.Tests.Integration;
 
@@ -20,9 +20,9 @@ public class UnitTest1 : IClassFixture<CustomWebAppFac>
     [Fact]
     public async Task Test1()
     {
-        var request = new Request("test", DateOnly.Parse("2023.05.20"));
+        var request = new AddMovieRequest("test", DateOnly.Parse("2023.05.20"));
 
-        var (resp, result) = await _client.POSTAsync<Endpoint, Request, Response>(request);
+        var (resp, result) = await _client.POSTAsync<AddMovie, AddMovieRequest, AddMovieResponse>(request);
 
         resp.StatusCode.Should().Be(HttpStatusCode.OK);
         result.Should().NotBeNull();

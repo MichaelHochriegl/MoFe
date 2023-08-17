@@ -1,11 +1,13 @@
 using FastEndpoints;
 using FastEndpoints.Swagger;
 using MoFe.Api;
+using MoFe.Contracts;
 using MoFe.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddFastEndpoints(opt =>
 {
+    opt.Assemblies = new[] { typeof(IApiMarker).Assembly, typeof(IContractsMarker).Assembly };
     opt.IncludeAbstractValidators = true;
 });
 builder.Services.AddSwaggerDoc();
