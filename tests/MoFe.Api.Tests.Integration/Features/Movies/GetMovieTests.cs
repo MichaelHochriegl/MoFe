@@ -46,7 +46,7 @@ public class GetMovieTests : IClassFixture<CustomWebAppFac>
         var request = new GetMovieRequest(unknownMovieId);
 
         // Act
-        var (resp, result) = await _client.GETAsync<GetMovieEndpoint, GetMovieRequest, GetMovieResponse>(request);
+        var (resp, _) = await _client.GETAsync<GetMovieEndpoint, GetMovieRequest, GetMovieResponse>(request);
 
         // Assert
         resp.StatusCode.Should().Be(HttpStatusCode.NotFound);
