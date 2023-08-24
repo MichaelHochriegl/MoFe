@@ -2,5 +2,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ace36df4_002Df440_002D4539_002Dab28_002D23c0880ff3d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_new_Movie_with_valid_data_should_succeed&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.GetMovieTests.Fetch_existing_Movie_should_succeed&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.GetMovieTests.Fetch_non_existing_Movie_should_fail&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

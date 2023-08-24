@@ -37,4 +37,19 @@ public class GetMovieTests : IClassFixture<CustomWebAppFac>
         resp.StatusCode.Should().Be(HttpStatusCode.OK);
         result.Should().BeEquivalentTo(movie);
     }
+
+    [Fact]
+    public async Task Fetch_non_existing_Movie_should_fail()
+    {
+        // Arrange
+        const int unknownMovieId = 999;
+        var request = new GetMovieRequest(unknownMovieId);
+
+        // Act
+        var (resp, result) = await _client.GETAsync<GetMovieEndpoint, GetMovieRequest, GetMovieResponse>(request);
+
+        // Assert
+        resp.StatusCode.Should().Be(HttpStatusCode.NotFound);
+
+    }
 }
