@@ -30,6 +30,19 @@ public class CustomWebAppFac : WebApplicationFactory<IApiMarker>, IAsyncLifetime
         });
     }
 
+    public async Task<TEntity> SeedEntry<TEntity>(TEntity entity, CancellationToken ct = default)
+    {
+        if (entity == null) throw new ArgumentNullException(nameof(entity));
+
+        using var scope = Services.CreateScope();
+        var dbContext = scope.ServiceProvider.GetRequiredService<MoFeDbContext>();
+        dbContext.Add(entity);
+
+        await dbContext.SaveChangesAsync(ct);
+
+        return entity;
+    }
+
     public Task InitializeAsync()
     {
         return _database.StartAsync();
