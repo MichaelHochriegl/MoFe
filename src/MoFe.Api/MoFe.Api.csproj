@@ -28,9 +28,5 @@
     </ItemGroup>
 
 
-    <ItemGroup>
-      <Folder Include="Features\Movies\Add\" />
-      <Folder Include="Features\Movies\Get\" />
-    </ItemGroup>
 
 </Project>
