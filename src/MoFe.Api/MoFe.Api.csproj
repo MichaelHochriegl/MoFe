@@ -14,8 +14,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="FastEndpoints.Swagger" Version="5.9.0" />
-      <PackageReference Include="FluentValidation" Version="11.5.2" />
+      <PackageReference Include="FastEndpoints.Swagger" Version="5.15.0" />
+      <PackageReference Include="FluentValidation" Version="11.7.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

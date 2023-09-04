@@ -8,5 +8,7 @@
     &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_new_Movie_with_invalid_name_should_fail&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_new_Movie_with_empty_name_should_fail&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_new_Movie_with_old_release_date_should_fail&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.GetAllMoviesTests.Fetch_all_movies_when_no_present_should_return_empty_list&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.GetAllMoviesTests.Fetch_all_movies_when_present_should_return_all&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
