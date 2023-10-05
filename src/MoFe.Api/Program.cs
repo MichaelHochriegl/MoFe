@@ -5,6 +5,7 @@ using MoFe.Contracts;
 using MoFe.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddAuthorization();
 builder.Services.AddFastEndpoints(opt =>
 {
     opt.Assemblies = new[] { typeof(IApiMarker).Assembly, typeof(IContractsMarker).Assembly };
