@@ -1,14 +1,4 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ace36df4_002Df440_002D4539_002Dab28_002D23c0880ff3d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_new_Movie_with_valid_data_should_succeed&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.GetMovieTests.Fetch_existing_Movie_should_succeed&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.GetMovieTests.Fetch_non_existing_Movie_should_fail&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_already_existing_Movie_with_should_fail&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_new_Movie_with_invalid_name_should_fail&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_new_Movie_with_empty_name_should_fail&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.AddMovieTests.Adding_new_Movie_with_old_release_date_should_fail&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.GetAllMoviesTests.Fetch_all_movies_when_no_present_should_return_empty_list&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A93ACA48-F389-464E-BF7E-D8B3580CD0A6::net7.0::MoFe.Api.Tests.Integration.Features.Movies.GetAllMoviesTests.Fetch_all_movies_when_present_should_return_all&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6bd6cb77_002D5d2e_002D4680_002D8f5e_002D7d37d4160c57/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
